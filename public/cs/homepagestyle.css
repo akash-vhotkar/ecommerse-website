@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    color: white;
+    display: flex;
+   font-size: 1rem;
+    position: fixed;
+    background-color: black;
+    
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+    opacity: 0.8;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    transition: all 0.75s ease-in-out;
+}
+.maincontainer{
+    height: 100%;
+   
+    width: 100%;
+    z-index: 1;
+
+}
+
+.showcase{
+    height: 100vh;
+    width: 100%;
+   position: relative;
+   transition: all 0.75s ease-in-out;
+  
+   background-image: url('https://img.freepik.com/free-photo/eyeglasses-wear_1203-2605.jpg?size=626&ext=jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.showcase .showhead{
+    height: 400px;
+    width: 80%;
+    font-size: large;
+    position: absolute;
+   
+    top: 30%;
+    left: 10%;
+    right: 25%;
+    
+    bottom: 25%;
+
+    
+    text-align: center;
+}
+.showcase .showhead h1 {
+    color: black;
+    padding: 30px;
+
+}
+.showhead input{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 30px;
+    height: 50px;
+}
+.proheading{
+  
+    height: 20vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: white;
+
+}
+.offer{
+    color: rgb(31, 180, 81);
+}
+.proheading h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+}
+.proheading p,p{
+    padding-top: 4px;
+}

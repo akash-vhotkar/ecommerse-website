@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cs/homepagestyle.css">
+    <script src="https://kit.fontawesome.com/5c174d451e.js" crossorigin="anonymous"></script>
+    <title> shopping page </title>
+</head>
+
+<body>
+    <nav>
+        <%- include('partials/navbar')%>
+    </nav>
+
+    <div class="maincontainer">
+        <div class="showcase">
+            <div class="showhead">
+                <h1> Better vision for a great life. </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas praesentium ea consequatur
+                    commodi, nemo tempore culpa eligendi labore corporis quia.</p>
+                <input type="button" value="Shop Now">
+            </div>
+
+
+        </div>
+        <div class="proheading">
+            <h1>YOUR FIRST PAIR OF EYEGLASSES AT <span class="offer"> ₹2700 OFF</span>
+            </h1>
+            <p>Best in Class material | Limited Period Offer | 1 Year Warranty
+            </p>
+
+        </div>
+        <%- include('partials/products')%>
+        <%- include('partials/footer')%>
+    </div>
+
+</body>
+<script src="/js/homepagejs.js"></script>
+
+</html>
