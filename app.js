@@ -14,7 +14,15 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get("/homepage", (req, res) => {
     res.render('homepage');
 })
-
+app.get("/login", (req, res) => {
+    res.render('login');
+})
+app.get("/register", (req, res) => {
+    res.render('register');
+})
+app.get("/shopnow", (req, res) => {
+    res.render('Shopnow')
+})
 
 // router part
 let port = process.env.PORT || 4000;

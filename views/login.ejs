@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c174d451e.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    h1 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+
+    .login {
+        position: absolute;
+        top: 15vh;
+        left: 37%;
+        height: 600px;
+        width: 450px;
+        background-color: white;
+    }
+
+    .login h1 {
+        text-align: center;
+    }
+
+    :-ms-input-placeholder {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    form input[type=text],
+    input[type=password] {
+        margin-top: 30px;
+        margin-left: 30px;
+        outline: none;
+        width: 80%;
+        border-color: rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+        padding: 15px;
+
+        font-size: 1rem;
+    }
+
+    form input[type=submit] {
+        margin-top: 30px;
+        margin-left: 30px;
+        outline: none;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        padding: 15px;
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .icons {
+        margin-left: 60px;
+        font-size: 2rem;
+        color: black;
+        display: flex;
+    }
+
+    .icons i {
+        cursor: pointer;
+        padding: 10px;
+        margin-left: 20px;
+    }
+</style>
+
+<body>
+    <h1>Spacs makers</h1>
+    <hr>
+
+    <div class="login">
+        <h1>Sigh in</h1>
+        <div class="form">
+            <form action="#">
+                <input type="text" name="username" placeholder="Enter your username" required>
+                <input type="password" name="password" placeholder="Enter password" required>
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+        <h3>forgot password ?</h3>
+        <hr>
+        <h3>Continue as new user</h3>
+        <hr>
+        <h3>sigh in with</h3>
+        <div class="icons">
+            <div class="instagramicon">
+                <i class="fab fa-instagram-square"></i>
+            </div>
+            <div class="googleicon">
+                <i class="fab fa-google"></i>
+            </div>
+            <div class="facebookicon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="githubicon">
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -34,9 +34,15 @@
     }
 
     .content ul {
+        transition: all 1s ease-in-out;
+        padding-top: 20px;
+        margin-top: 0px;
+        height: 10vh;
         cursor: pointer;
         width: 140px;
     }
+
+
 
     ul input {
         font-size: 18px;
@@ -51,6 +57,7 @@
     }
 
     .profile i {
+
         margin-top: 15px;
         font-size: 20px;
     }
@@ -64,6 +71,7 @@
     .basket i {
         cursor: pointer;
         padding: 10px;
+
         font-size: 1.5rem;
         width: 2rem;
 
@@ -79,6 +87,7 @@
     }
 
     .userfild input[type="search"] {
+        outline: none;
         border-radius: 0px 12px 12px 0px;
         border: thick;
         border: white;
@@ -106,6 +115,81 @@
     .logo i {
         padding-top: 2px;
     }
+
+
+
+
+    .submenu1 {
+        color: black;
+        display: none;
+        transition: all 1s ease-in-out;
+
+        width: 100%;
+        height: 40vh;
+
+        background-color: white;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .submenu2 {
+        width: 100%;
+        transition: all 1s ease-in-out;
+        color: black;
+        display: none;
+        height: 40vh;
+        background-color: white;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .submenu3 {
+        color: black;
+        width: 100%;
+        transition: all 1s ease-in-out;
+
+        display: none;
+        height: 40vh;
+        background-color: white;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .menucart {
+        background-color: white;
+        margin-left: 50px;
+        text-align: center;
+        width: 500px;
+        height: 40vh;
+    }
+
+    .menucart img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .menucart button {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 1rem;
+
+    }
+
+    .moveicon {
+        transition: all 0.8s ease-in-out;
+    }
+
+    .moveicon1 {
+        transition: all 0.8s ease-in-out;
+    }
+
+    .moveicon2 {
+        transition: all 0.8s ease-in-out;
+    }
 </style>
 
 <body>
@@ -115,20 +199,25 @@
 
     </div>
     <div class="content">
-        <ul>Home <span> <i class="fas fa-angle-down"></i>
-            </span></ul>
-        <ul>Shop Now <span> <i class="fas fa-angle-down"></i>
-            </span></ul>
-        <ul> About us <span> <i class="fas fa-angle-down"></i>
-            </span></ul>
-        <ul>Contact <span>lenses <i class="fas fa-angle-down"></i></span> </ul>
-        <ul>Sun glasses <i class="fas fa-angle-down"></i></ul>
-        <ul>computer glasses <i class="fas fa-angle-down"></i></ul>
+        <ul>Home </ul>
+        <ul>Shop Now </ul>
+        <ul> About us
+        </ul>
+        <ul class="kidglass">Kids Glasses <span class="moveicon"><i class="fas fa-angle-down"></i></span>
+
+        </ul>
+        <ul class="sunglass">Sun Glasses <span class="moveicon1"><i class="fas fa-angle-down"></i></span>
+
+        </ul>
+        <ul class="comglass">computer glasses <span class="moveicon2"><i class="fas fa-angle-down"></i></span>
+
+        </ul>
 
 
 
 
     </div>
+
     <div class="basket">
         <ul class="userfild">
             <div class="searchicon">
@@ -145,6 +234,247 @@
         </div>
     </div>
 
+    <div class="submenu1">
+        <div class="menucart">
+
+            <img src="images/m1.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button> submenu1 </button>
+
+        </div>
+        <div class="menucart">
+            <img src="images/m2.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+        </div>
+        <div class="menucart">
+            <img src="images/m3.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+
+        </div>
+        <div class="menucart">
+            <img src="images/m4.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+
+        </div>
+
+    </div>
+    <div class="submenu2">
+        <div class="menucart">
+            <img src="images/m5.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>menu2</button>
+
+
+        </div>
+        <div class="menucart">
+            <img src="images/m6.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>sub mean 2</button>
+
+
+        </div>
+        <div class="menucart">
+            <img src="images/m7.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+
+        </div>
+        <div class="menucart">
+            <img src="images/m8.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+
+        </div>
+
+    </div>
+    <div class="submenu3">
+        <div class="menucart">
+            <img src="images/m9.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button> menu3</button>
+        </div>
+        <div class="menucart">
+            <img src="images/m10.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+        </div>
+        <div class="menucart">
+            <img src="images/m11.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+        </div>
+        <div class="menucart">
+            <img src="images/m12.webp" alt="product image">
+            <h1>vancent vens</h1>
+            <button>add to cart</button>
+
+        </div>
+
+    </div>
+
+
 </body>
+<script>
+    const kidsglass = document.querySelector('.kidglass');
+    const comglass = document.querySelector('.comglass');
+    const sunglass = document.querySelector('.sunglass');
+
+    const submenu1 = document.querySelector('.submenu1');
+    const submenu2 = document.querySelector('.submenu2');
+    const submenu3 = document.querySelector('.submenu3');
+
+    const moveicon = document.querySelector('.moveicon')
+    const moveicon1 = document.querySelector('.moveicon1')
+    const moveicon2 = document.querySelector('.moveicon2')
+
+
+    kidsglass.addEventListener('mouseover', e => {
+        moveicon.innerHTML = '<i class="fas fa-angle-up" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        submenu1.style.display = 'flex';
+        submenu2.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+
+    sunglass.addEventListener('mouseover', e => {
+        moveicon1.innerHTML = '<i class="fas fa-angle-up" ></i>';
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+
+        submenu2.style.display = 'flex';
+        submenu1.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+    comglass.addEventListener('mouseover', e => {
+        moveicon2.innerHTML = '<i class="fas fa-angle-up"></i>';
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        submenu3.style.display = 'flex';
+        submenu1.style.display = "none";
+        submenu2.style.display = "none";
+
+    })
+
+
+
+
+    // kidsglass.addEventListener('mouseleave', e => {
+    //     moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+    //     submenu1.style.display = 'none';
+    //     submenu2.style.display = "none";
+    //     submenu3.style.display = "none";
+
+    // })
+
+
+    // sunglass.addEventListener('mouseleave', e => {
+    //     moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+    //     submenu2.style.display = 'none';
+    //     submenu1.style.display = "none";
+    //     submenu3.style.display = "none";
+
+    // })
+
+    // comglass.addEventListener('mouseleave', e => {
+    //     moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+    //     submenu3.style.display = 'none';
+    //     submenu1.style.display = "none";
+    //     submenu2.style.display = "none";
+
+    // })
+
+    submenu1.addEventListener('mouseover', e => {
+
+        moveicon.innerHTML = '<i class="fas fa-angle-up" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+
+
+
+        submenu1.style.display = 'flex';
+        submenu2.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+
+    submenu2.addEventListener('mouseover', e => {
+
+        moveicon1.innerHTML = '<i class="fas fa-angle-up" ></i>';
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+
+
+        submenu2.style.display = 'flex';
+        submenu1.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+    submenu3.addEventListener('mouseover', e => {
+        moveicon2.innerHTML = '<i class="fas fa-angle-up"></i>';
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+
+        submenu3.style.display = 'flex';
+        submenu1.style.display = "none";
+        submenu2.style.display = "none";
+
+    })
+
+    submenu1.addEventListener('mouseleave', e => {
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        submenu1.style.display = 'none';
+        submenu2.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+
+    submenu2.addEventListener('mouseleave', e => {
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        submenu2.style.display = 'none';
+        submenu1.style.display = "none";
+        submenu3.style.display = "none";
+
+    })
+
+    submenu3.addEventListener('mouseleave', e => {
+        moveicon.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon1.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        moveicon2.innerHTML = '<i class="fas fa-angle-down" ></i>'
+        submenu3.style.display = 'none';
+        submenu1.style.display = "none";
+        submenu2.style.display = "none";
+
+    })
+
+
+
+
+
+
+
+
+</script>
 
 </html>

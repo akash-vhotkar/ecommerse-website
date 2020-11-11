@@ -18,7 +18,7 @@ nav{
     width: 100%;
     height: 10vh;
     z-index: 2;
-    opacity: 0.8;
+    opacity: 1;
     justify-content: space-between;
     margin: 0;
     align-items: center;
@@ -33,12 +33,13 @@ nav{
 }
 
 .showcase{
+    color: white;
     height: 100vh;
     width: 100%;
    position: relative;
    transition: all 0.75s ease-in-out;
   
-   background-image: url('https://img.freepik.com/free-photo/eyeglasses-wear_1203-2605.jpg?size=626&ext=jpg');
+   background-image: url('../images/back2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -59,11 +60,12 @@ nav{
     text-align: center;
 }
 .showcase .showhead h1 {
-    color: black;
+    
     padding: 30px;
 
 }
 .showhead input{
+    outline: none;
     background-color: red;
     color: white;
     border: none;

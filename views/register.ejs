@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c174d451e.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .register {
+        margin-top: 8vh;
+        margin-left: 35%;
+        background-color: white;
+        width: 28vw;
+        height: 80vh;
+
+    }
+
+    .register h3,
+    h4 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    form input[type=text],
+    input[type=email],
+    input[type=password] {
+        margin-top: 25px;
+        outline: none;
+        margin-left: 30px;
+        border-color: rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        width: 80%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    form input[type=submit] {
+        margin-top: 25px;
+        margin-left: 30px;
+        width: 80%;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 30px;
+        border: none;
+
+        background-color: black;
+        color: white;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 2rem;
+        margin-left: 100px;
+    }
+
+    .icons i {
+        cursor: pointer;
+        padding: 10px;
+
+    }
+</style>
+
+<body>
+    <h1>specs makers</h1>
+    <hr>
+    <div class="register">
+        <h1>Register Here</h1>
+        <div class="form">
+            <form action="#">
+                <input type="text" name="username" placeholder="Enter username" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="password" name="password1" placeholder="Enter password" required>
+                <input type="password" name="password2" placeholder="Enter Confirm password" required>
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+        <h4><a href="#">log in</a></h4>
+        <h3>register using</h3>
+        <hr>
+        <div class="icons">
+
+            <div class="instagramicon">
+                <i class="fab fa-instagram-square"></i>
+            </div>
+            <div class="googleicon">
+                <i class="fab fa-google"></i>
+            </div>
+            <div class="facebookicon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="githubicon">
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
